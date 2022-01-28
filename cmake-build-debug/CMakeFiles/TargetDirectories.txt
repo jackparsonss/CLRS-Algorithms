@@ -1,3 +1,0 @@
-/Users/jackparsons/Desktop/School/CMPUT 204/Code/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/jackparsons/Desktop/School/CMPUT 204/Code/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/jackparsons/Desktop/School/CMPUT 204/Code/cmake-build-debug/CMakeFiles/Code.dir

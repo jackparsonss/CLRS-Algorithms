@@ -1,5 +1,3 @@
-#pragma clang diagnostic push
-#pragma ide diagnostic ignored "misc-no-recursion"
 //
 // Created by Jack Parsons on 2022-01-26.
 //
@@ -59,4 +57,3 @@ std::tuple<int, int, int>findMaxCrossingSubArray(std::vector<int> A, int low, in
     }
     return { max_left, max_right, left_sum + right_sum };
 }
-#pragma clang diagnostic pop
