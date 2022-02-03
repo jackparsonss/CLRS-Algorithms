@@ -3,12 +3,25 @@
 
 #include "./algorithms/divide-and-conquer/max-subarray.h"
 #include "./algorithms/Heapsort/Heap.h"
+#include "./Datastructures/PriorityQueue.h"
 
 int main() {
-    // Heaps
-    if(true) {
+    // Priority Queue
+    if(true){
         std::vector<int> A ={4,1,3,2,16,9,10,14,8,7};
-//        std::vector<int> A ={13,-3,-25,20,-3,-16,-23,18,20,-7,12,-5,-22,15,-4,7};
+        PriorityQueue pq(A);
+        pq.display();
+        std::cout << "max: " << pq.heapMax() << std::endl;
+        pq.heapExtractMax();
+        pq.maxHeapInsert(45);
+        pq.display();
+        pq.heapIncreaseKey(2, 90);
+        pq.display();
+    }
+
+    // Heap
+    if(false) {
+        std::vector<int> A ={4,1,3,2,16,9,10,14,8,7};
         Heap max_heap(A);
         max_heap.display();
         max_heap.heapSort();

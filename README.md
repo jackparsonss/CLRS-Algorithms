@@ -3,9 +3,10 @@ Going along with CMPUT-204, my universities algorithms course, I have decided to
 
 I plan to code all the algorithms in either c++ or python.
 
-## Divide and Conquer:
+## Algorithms:
 - Find Maximum Subarray
-
-## Heap:
-- Heap Datastructure
 - HeapSort
+
+## Datastructures:
+- Heap 
+- Priority Queue
