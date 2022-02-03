@@ -5,3 +5,7 @@ I plan to code all the algorithms in either c++ or python.
 
 ## Divide and Conquer:
 - Find Maximum Subarray
+
+## Heap:
+- Heap Datastructure
+- HeapSort
