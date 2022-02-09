@@ -6,6 +6,7 @@ I plan to code all the algorithms in either c++ or python.
 ## Algorithms:
 - Find Maximum Subarray
 - HeapSort
+- QuickSort
 
 ## Datastructures:
 - Heap 
