@@ -8,7 +8,7 @@
 
 int main() {
     // Quicksort
-    if(true) {
+    if(false) {
         std::vector<int>A = {9,32,192,439,2,12,4,1,45,8932,234,6};
         quicksort(A);
         for(int i : A){
@@ -40,8 +40,9 @@ int main() {
     }
 
     // Find Max Subarray:
-    if(false){
-        std::vector<int> A ={13,-3,-25,20,-3,-16,-23,18,20,-7,12,-5,-22,15,-4,7};
+    if(true){
+//        std::vector<int> A ={13,-3,-25,20,-3,-16,-23,18,20,-7,12,-5,-22,15,-4,7};
+        std::vector<int> A ={2,-3,2,-1,3,-1,2,-1};
         auto [left, right, sum] = findMaxSubArray(A, 0, A.size());
         std::cout << "Left: " << left << std::endl;
         std::cout << "Right: " << right << std::endl;
